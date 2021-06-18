@@ -1,0 +1,52 @@
+:root {
+   --font-size-small: 14px;
+   --font-family-main: sans-serif;
+   --font-bold: 600px;
+
+   --transition: .4s;
+
+   --color-white: #fff;
+   --color-black: #000;
+   --color-gray: #9c9c9c;
+}
+.UiButton_button__3GnpP {
+   padding: 10px;
+   min-width: 100px;
+   border-radius: 3px;
+
+   font-size: var(--font-size-small);
+   font-family: var(--font-family-main);
+   font-weight: var(--font-bold);
+
+   background: none;
+   outline: none;
+   transition: var(--transition);
+   cursor: pointer;
+}
+.UiButton_button__3GnpP:disabled,
+.UiButton_button__3GnpP:disabled:hover{
+   color: var(--color-gray);
+   border-color: var(--color-gray);
+   background-color: transparent;
+   cursor: auto;
+}
+.UiButton_dark__v_vAS{
+   border: 1px solid var(--color-white);
+   color: var(--color-white);
+}
+.UiButton_dark__v_vAS:hover{
+   background-color: var(--color-white);
+   color: var(--color-black)
+}
+.UiButton_light__1t9wL{
+   border: 1px solid var(--color-black);
+   color: var(--color-black);
+}
+.UiButton_light__1t9wL:hover{
+   background-color: var(--color-black);
+   color: var(--color-white)
+}
+
+
+
+/*# sourceMappingURL=main.21a320c7.chunk.css.map*/

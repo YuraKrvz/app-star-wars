@@ -1,0 +1,33 @@
+.container{
+   position: relative;
+   width: 250px;
+   height: 350px;
+   left: 0;
+   top: 0;
+
+}
+.photo{
+   width: 100%;
+   width: 100%;
+   border-radius: var(--border--radius-medium);
+   object-fit: cover;
+   object-position: center center;
+}
+/* .container__favorite{
+   
+   background-color: var(--color--yellow);
+   opacity: 0.5;
+   padding: 5px;
+   border-radius: 15px;
+   height: 35px;
+} */
+.favorite{
+   position: absolute;
+   top: 3px;
+   right: 0;
+   width: 35px;
+   height: 35px;
+   cursor: pointer;
+   object-fit: cover;
+   filter: drop-shadow(0 0 2px rgb(0, 0, 0));
+}
